@@ -1,0 +1,190 @@
+body{
+	margin: 0px;
+}
+.inventrom-header{
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	z-index: 100;
+}
+nav{
+	scroll-behavior: smooth;
+}
+.logo{
+	margin-top: -20px;
+	margin-left: 2%;
+	float: left;
+}
+.inventrom-nav{
+	float: right;
+	height: 100%;
+	text-align: center;
+
+}
+.inventrom-nav a{
+	font-size: 15px;
+	font-weight: 700;
+	font-family: Trebuchet MS;
+	padding-right: 20px;
+	padding-top: 15%;
+	display: inline-block;
+	color: #0a0a0a;
+
+}
+.site-content{
+	top: 78px;
+	width: 100%;
+	margin: 0px;
+}
+.image-content{
+	display: inline-block;
+	background-image: url("background.png");
+	height: 800px;
+	width: 100%;
+	text-align: center;
+}
+.quote{
+	color: white;
+	font-family: Trebuchet MS;
+	position: relative;
+	top: 10%;
+	padding-top: 8%;
+	font-style: italic;
+}
+.know{
+	display: inline-block;
+	color: #ffffff;
+	font-family: Trebuchet MS;
+	position: relative;
+	padding-top: 13%;
+	
+}
+.link{
+	color: #ffffff;
+}
+#about{
+	width: 60%;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	color: #139139 ;
+	font-family: Trebuchet MS;
+	font-size: large;
+	padding-top: 50px;
+}
+.h4tag{
+	color: #000000;
+}
+
+.cards{
+	margin:  auto;
+	height: 100%;
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	font-family: Trebuchet MS;
+}
+.card{
+	width: 450px;
+	height: 100%;
+	display: inline-block;
+	margin: 3%;
+	
+	text-align: left;
+}
+@media(min-width: 320px) and (max-width: 480px){
+	.card{
+	width:100%;
+	display: block;
+	}
+}
+#awards{
+	width: 100%;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	color: #139139 ;
+	font-family: Trebuchet MS;
+	font-size: large;
+	padding-top: 50px;
+	background-color: #f8f9f9;
+	height: 100%;
+	display: block;
+}
+.awardds{
+	margin:  auto;
+	height: 100%;
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+.award{
+	display: flex;
+	display: block;
+	width: 300px;
+	margin: auto;
+	color: #000000;
+	padding-bottom: 1%;
+
+}
+
+.text{
+	display: inline-block;
+	font-size: small ;
+	letter-spacing: 1px;
+
+}
+#contact{
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	color: #139139 ;
+	font-family: Trebuchet MS;
+	font-size: large;
+	background-color: #f8f9f9;
+	height: 100%;
+}
+#contact h1{
+	text-align: center;
+}
+.form{
+	padding-left: 15%;
+	margin: auto;
+	background-color: #f8f9f9;
+	padding-right: 10%;
+
+}
+.details{
+	width: 50%;
+	float: right;
+	margin: auto;
+	background-color: #f8f9f9;
+
+}
+.address{
+	width: 60%;
+	display: block;
+	float: left;
+	text-align: left;
+}
+.locations{
+	width: 60%;
+}
+.locations h2{
+	font-weight: bold;
+	color: #000000;
+}
+.locations p{
+	color: #000000;
+}
+.contactus h2{
+	font-weight: bold;
+	color: #000000;
+}
+.address p{
+	color: #000000;
+}
